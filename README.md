@@ -105,7 +105,7 @@ The Playtech Sports Server is built using the following technologies:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Playtech-Sports-Server.git
+   git clone https://github.com/sahan89/Playtech-Sports-Server.git
 
 - Open application.yml file and change the Database information.
 
