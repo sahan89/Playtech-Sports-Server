@@ -15,7 +15,6 @@ This server provides statistics about football players, allowing users to access
     - [Technologies Used](#technologies-used)
     - [Installation](#installation)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
 
 ## Introduction
 
@@ -146,6 +145,6 @@ The Playtech Sports Server is built using the following technologies:
 - **Description:** Retrieve detailed statistics for a specific player.
 - **Example:** `GET /api/player/5583`
 
-*Get Player By Id output*
+*Get Player By ID output*
 
 ![All Players](/src/main/resources/static/Player_By_Id.png)
