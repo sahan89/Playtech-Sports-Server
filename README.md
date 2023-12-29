@@ -93,6 +93,7 @@ The Playtech Sports Server is built using the following technologies:
 
 - Java: Version 17
 - Spring Boot: Version 3.2.0
+- JUnit
 - Swagger: API documentation tool
 - MongoDB: NoSQL database
 - Gradle: Build and dependency management tool
