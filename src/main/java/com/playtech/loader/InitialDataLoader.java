@@ -49,7 +49,7 @@ public class InitialDataLoader {
         List<PlayerResponse> allPlayersList = this.playerService.getAllPlayers();
 
         if (allPlayersList == null || allPlayersList.isEmpty()) {
-            Resource resource = new ClassPathResource("players_server_app.csv");
+            Resource resource = new ClassPathResource("/static/players_server_app.csv");
             try {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
                 String headerLine = reader.readLine();

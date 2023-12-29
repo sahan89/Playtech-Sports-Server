@@ -1,4 +1,4 @@
-package com.playtech.service;
+package com.playtech.service.serviceimpl;
 
 import com.playtech.domain.Player;
 import com.playtech.domain.response.PlayerProfileResponse;
@@ -6,6 +6,7 @@ import com.playtech.domain.response.PlayerResponse;
 import com.playtech.exceptiondomain.DataNotFoundException;
 import com.playtech.exceptiondomain.constant.ExceptionConstant;
 import com.playtech.repository.PlayerRepository;
+import com.playtech.service.PlayerService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
