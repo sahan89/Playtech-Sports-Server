@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: playtech-db
+      username: admin
+      password: password
+      authentication-database: admin
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui
+    config-url: /v3/api-docs/swagger-config
+    urls:
+      - name: playtech
+        url: /v3/api-docs
