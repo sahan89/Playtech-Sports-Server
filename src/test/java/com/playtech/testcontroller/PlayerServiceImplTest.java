@@ -65,8 +65,7 @@ public class PlayerServiceImplTest {
         PlayerProfileResponse actualResponse = playerServiceImpl.getPlayerById(playerId);
 
         assertNotNull("Actual player should not be null", actualResponse);
-        assertEquals("Player should match", actualResponse.getPlayerId(), playerId);
-
+        assertEquals("Player ID should match", actualResponse.getPlayerId(), playerId);
     }
 
     @Test
@@ -100,6 +99,5 @@ public class PlayerServiceImplTest {
 
         assertNotNull("Actual players list should not be null", actualPlayers);
         assertEquals("Number of players should match", expectedPlayers.size(), actualPlayers.size());
-
     }
 }
