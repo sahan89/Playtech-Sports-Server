@@ -23,7 +23,7 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
 @WebFluxTest(PlayerController.class)
-public class PlayerServiceTest {
+public class PlayerControllerTest {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

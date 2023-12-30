@@ -1,4 +1,4 @@
-package com.playtech.service.serviceimpl;
+package com.playtech.service.impl;
 
 import com.playtech.domain.Player;
 import com.playtech.domain.response.PlayerProfileResponse;
