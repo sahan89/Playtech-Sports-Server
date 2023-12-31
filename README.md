@@ -99,6 +99,7 @@ The Playtech Sports Server is built using the following technologies:
 - Gradle: Build and dependency management tool
 - Postman
 - MongoDB Compass
+- Intellij Idea
 - slf4j Logger
 
 ### Installation
